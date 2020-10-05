@@ -5,6 +5,7 @@ namespace Library.Test
 {
     public class DwarfTests
     {
+        
         Dwarf dwarf = new Dwarf("Dwarf");
 
         [SetUp]

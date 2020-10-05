@@ -30,6 +30,8 @@ namespace Library.Test
             Assert.AreEqual(170, wizard.AttackValue);
         }
 
+        
+
         [Test]
         public void TestReceiveAttack()
         {

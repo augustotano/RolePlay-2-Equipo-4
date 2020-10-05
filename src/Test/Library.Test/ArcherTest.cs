@@ -5,6 +5,7 @@ namespace Library.Test
 {
     public class ArcherTests
     {
+        
         Archer archer = new Archer("Archer");
 
         [SetUp]

@@ -58,6 +58,7 @@ namespace Library.Test
             dwarf.Shield = shield;
             knight.ReceiveAttack(dwarf.AttackValue);
             Assert.AreEqual(knight.Health,38);
+            
         }
     }
 }
