@@ -1,8 +1,8 @@
 namespace RoleplayGame
 {
-    public class Sword
+    public class Sword: Element
     {
-        public int AttackValue 
+        public override int AttackValue 
         {
             get
             {
