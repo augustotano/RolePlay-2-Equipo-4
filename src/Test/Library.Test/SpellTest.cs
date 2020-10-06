@@ -5,21 +5,22 @@ namespace Library.Test
 {
     public class SpellTests
     {
+        private Spell spell;
          [SetUp]
         public void SetUp()
         {
-            Spell spell = new Spell();
+            spell = new Spell();
         }
 
          [Test]
         public void TestAttackValue()
         {
-
+            Assert.AreEqual(spell.AttackValue,70);
         }
         [Test]
         public void TestDefenseValue()
         {
-
+            Assert.AreEqual(spell.DefenseValue,70);
         }
     }
 }

@@ -6,6 +6,10 @@ namespace RoleplayGame
     {
         public Spell[] Spells { get; set; }
         
+        public SpellsBook()
+        {
+            Spells=new Spell[3];
+        }
         public int AttackValue
         {
             get

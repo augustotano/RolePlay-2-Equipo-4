@@ -5,16 +5,18 @@ namespace Library.Test
 {
     public class SwordTest
     {
+        private Sword sword;
+
         [SetUp]
         public void SetUp()
         {
-            Sword sword = new Sword();
+            sword = new Sword();
         }
 
         [Test]
         public void TestAttackValue()
         {
-            
+            Assert.AreEqual(sword.AttackValue,20);
         }
 
     }
