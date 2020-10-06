@@ -5,16 +5,18 @@ namespace Library.Test
 {
     public class HelmetTest
     {
+        private Helmet helmet;
+
          [SetUp]
         public void SetUp()
         {
-            Helmet helmet = new Helmet();
+            helmet = new Helmet();
         }
 
         [Test]
         public void TestDefenseValue()
         {
-
+            Assert.AreEqual(helmet.DefenseValue,18);
         }
     }
 }

@@ -5,16 +5,18 @@ namespace Library.Test
 {
     public class AxeTest
     {
+        private Axe axe;
+        
          [SetUp]
         public void SetUp()
         {
-            Axe axe = new Axe();
+            axe = new Axe();
         }
 
         [Test]
-        public void TestDefenseValue()
+        public void TestAttackValue()
         {
-
+            Assert.AreEqual(axe.AttackValue,25);
         }
     }
 }

@@ -5,16 +5,17 @@ namespace Library.Test
 {
     public class ArmorTest
     {
+        private Armor armor;
          [SetUp]
         public void SetUp()
         {
-            Armor armor = new Armor();
+            armor = new Armor();
         }
         
         [Test]
         public void TestDefenseValue()
         {
-
+            Assert.AreEqual(armor.DefenseValue,25);
         }
     }
 }
